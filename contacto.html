@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>LMSGI02.1 Tarea evaluativa_Hvicente</title>
+      <link rel="stylesheet" href="estilos/estilos.css"/>
+    </head>
+<body>
+  <div id="general">
+      <header id="formula1"> <!--La cabecera visual de la web. Una imagen la utilizamos como titular-->
+		              <figure><img src="imagenes/cabecera.jpg" alt="Fórmula1 carrera" width="900" height="207" border="0" />
+			              <figcaption>Imagen generada por IA</figcaption>
+			            </figure>
+			             <nav> <!--    En la imagen ponemos el menu de acceso de la web -->
+                    <ul> <!--Menu-->
+					            <li><a href="index.html">Inicio</a></li>
+					            <li><a href="galeria.html">Galeria</a></li>
+					            <li><a href="contacto.html">Contacto</a></li>
+				            </ul>
+			            </nav>
+      </header>	
+      <section>
+          <h1>Contacta con nosotros</h1> 
+          <h2>Esperamos tus opiniones, avanzamos contigo</h2>
+          <p>Colabora con nosotros para que este proyecto, que tambien es tuyo, evolucione. </p>
+          <p>Esperamos tus opiniones. ¡Se parte de este maravillosos equipo</p>
+      </section> <!-- Creamos el formulario de contacto -->
+        <form action="" method="post" enctype="multipart/form-data" id="form"> <!-- se envian los datos mediante metodo Post -->
+          <img src="imagenes/istockphoto-2159410602-612x612.jpg" alt="circuito" width="130" height="121" border="0" />
+            <p><label for="nombre" class="etiqueta">Nombre:</label>
+		          <input type="text" name="nombre" id="nombre" />
+            </p>
+            <p><label for="email" class="etiqueta">email:</label>
+		          <input type="text" name="email" id="email" />
+            </p>
+            <p><input type="radio" name="sexo">Hombre<br>
+                  <input type="radio" name="sexo">Mujer<br>
+                  <input type="radio" name="sexo">Prefiero no decirlo<br>
+            </p>
+              <label for="conocimiento" class="etiqueta">Os he conocido por:</label>
+              <select name="conocimiento">
+              <option selected>Otros fans</option>
+              <option>Revistas del sector</option>
+             <option>Motores de busqueda</option>
+              <option>Otros</option>
+      </select>
+            <p>
+              <label for="sugerencias" class="etiqueta">Sugerencias:</label>
+              <p><textarea name="sugerencias" rows="10" cols="50" class="sugerencias"></textarea></p>
+              <input type="submit" value="Enviar" />
+       </form>
+
+    <footer id="pie"> <!--  Ponemos el pie a la web  -->
+      <p>Fórmula1 Amateur</p>
+      <p><a href="mailto:info@formula1amateur.com" class="url">info@formula1amateur.com</a>| 
+			  	  <a href="#" class="url">www.formula1amateur</a></p>
+		</footer>
+    </div>
+  </body>
+  </html>
