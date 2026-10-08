@@ -1,0 +1,159 @@
+/* Hoja de estilos para la web de Formula1 */
+
+#general{
+	width: 900px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #fff;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #fff;
+}
+header#formula1{
+	position:relative;
+}
+#formula1 nav { /* posicionamos el menu en la imagen de la cabecera */
+  position: absolute; 
+  top: 5px;       
+  left: 40px;         
+  z-index: 10;       
+}
+#introduccion {
+  font-size: 16px;
+	border-top: 2px solid #f00;
+	border-bottom: 2px solid #f00;
+	background-color: #ccc;
+	padding: 5px 15px 25px 15px;
+	margin-top: 20px;
+}
+#cuerpo{
+	background-color: #fff;
+	padding-top: 15px;
+}
+#columna1{
+	width: 46%;
+	float: left;
+	padding-left: 15px;
+}
+#columna2{
+	width: 46%;
+	float: right;
+	padding-right: 15px;
+}
+#singapur {
+  background-color: #fff;
+}
+#pie {
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  border: 2px solid red;
+}
+ul{ /* quitamos los puntos de las opciones del menú */
+	list-style-type: none;
+}
+ul li{ /* Aplicamos estilo a la estructura de las filas del menú */
+	border-bottom: 3px solid #fff;
+	border-top: 3px solid #fff;
+	margin-bottom: 5px;
+	display: list-item;
+}
+ul li a{  /* aplicamos estilo a los botones/enlaces */
+	display: block;
+	width: 130px;
+	text-align: center;	
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+  font-size: 24px;
+	font-weight: 900;
+	/* background-color: rgba (255,255,150, 0.70; */
+}
+ul li a:hover{ /* interacción. Cuando se pasa por encima se activa */
+	color: #f00;
+}
+h1{
+  font-family: sans-serif;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h3{
+	text-align: center;
+	background-color: #ccc;
+	margin: 10px 0px 3px 0px;
+	padding: 5px;
+}
+article h2, h2{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #f00;
+	margin-top: 0px;
+}
+figure{
+  margin: 0;
+}
+body{
+background-color: #666;
+}
+form{
+	width: 550px;
+	background-color: #ccc;
+	color: #000;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+	padding: 25px 50px;
+}
+form img{
+	float: right;
+}
+input[type="submit"]{
+	width: 100px;
+	font-weight: bold;
+	border: 2px solid #f00;
+	padding: 5px;
+	margin-bottom: 1px;
+}
+.clearfix:after{ /* para el float de las colunas 1 y 2 */
+	content: "";
+	display: table;
+	clear: both;
+} 
+.marco{ /* marco para la primera imagen de la pagina de inicio*/
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #000;	
+}
+
+.izq{ /* mandamos la imagen a la izda, con un margen a la derecha de 25px */
+	float:left;
+	margin-right: 25px;
+}
+.galeria { /* la galeria ocupa el 100% y las imagenes se alinean centralmente */
+width: 100%;
+text-align: center;
+}
+.galeria figure { /*ponemos las imagenes en una linea */
+    display: inline-block;
+    width: 130px;
+    margin: 10px;
+    vertical-align: top;
+}
+.etiqueta {
+    display: block;
+	  float: left;
+	  width: 150px;
+}
+.sugerencias { 
+	vertical-align: top;
+	display: inline-block;
+}
