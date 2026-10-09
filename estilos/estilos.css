@@ -52,8 +52,8 @@ header#formula1{
   border: 2px solid red;
 }
 #errorCorreo {
-	color: red;
-	margin-lef: 5px;
+	color: #f00;
+	margin-left: 5px;
 }
 ul{ /* quitamos los puntos de las opciones del menú */
 	list-style-type: none;
