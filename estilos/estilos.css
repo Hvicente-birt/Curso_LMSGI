@@ -52,7 +52,7 @@ header#formula1{
   border: 2px solid red;
 }
 #errorCorreo {
-	color: #ff0;
+	color: red;
 	margin-lef: 5px;
 }
 ul{ /* quitamos los puntos de las opciones del menú */
