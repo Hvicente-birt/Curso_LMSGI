@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+  <title>Web Formula1 de amateurs para amateurs</title>
+    <link>ttps://hvicente-birt.github.io/Curso_LMSGI/index.html</link>
+    <description>Actualizaciones web Formula1</description>
+    <language>es-es</language>
+    <pubDate>Tue, 27 Oct 2026 16:00:00 +0100</pubDate>
+   
+<item>
+        <title>Actualización carreras</title>
+        <link>https://hvicente-birt.github.io/Curso_LMSGI/index.html</link>
+        <description>Actualización nueva carrera</description>
+        <pubDate>Tue, 27 Oct 2026 16:05:00 +0100</pubDate>
+        </item>    
+<item>
+        <title>Actualización Galeria</title>
+        <link>https://hvicente-birt.github.io/Curso_LMSGI/galeria.html</link>
+        <description>Actualización Galeria</description>
+        <pubDate>Tue, 27 Oct 2026 16:05:00 +0100</pubDate>
+</item>       
+</channel>
+</rss>
